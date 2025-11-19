@@ -1,0 +1,57 @@
+\documentclass[lang=cn,newtx,14pt,scheme=chinese]{elegantbook}
+
+\title{科学研究与论文写作}
+
+\author{钟澄}
+\institute{wusir2018@163.com}
+
+\extrainfo{注意：本书为重排版本，仅供个人学习使用！}
+
+\setcounter{tocdepth}{3}
+
+% \logo{logo-blue.png}
+\cover{cover.png}
+
+% 本文档命令
+\usepackage{pdfsync}
+\usepackage{array}
+\usepackage{pfnote}  %每页脚注重新计数
+\newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+
+
+% 修改标题页的橙色带
+\definecolor{customcolor}{RGB}{32,178,170}
+\colorlet{coverlinecolor}{customcolor}
+\usepackage{cprotect}
+
+% \addbibresource[location=local]{reference.bib} % 参考文献，不要删除
+
+\begin{document}
+
+\maketitle
+\frontmatter
+
+
+\chapter*{前言}
+在过去十余年指导学生的过程中，我深刻地体会到学生在刚进入科研领域时，由于缺乏科学的研究思维，会出现许多共性问题。比如，许多新学生在论文阅读的过程中由于缺乏批判性思维，盲目地信任论文上的结论；在交流选题时，面对新鲜事物，不少新学生会有畏惧的心理状态；在实验的过程中，由于缺乏抓住研究事物本质的能力，新学生通常会在研究的过程中事倍功半；在写作的过程中，新学生通常无法准确地把握论文写作的正确逻辑，同时存在许多表达、格式等方面的问题。因此，为了给新学生及刚接触研究工作的科研工作者提供一些思维方式上的指导，让他们少走弯路，我结合过去十余年的教学科研及培养学生的经历，撰写了这本书。本书行文风格力求通俗易懂，以降低阅读难度。同时，我结合了培养学生过程中所遇到的实际问题来阐述观点，有助于读者更好地明白科学思维的作用与重要性。
+
+本书的写作得到了天津大学的领导、同事、学生、家人和相关部门的支持，同时科学出版社为本书的出版做了大量的工作，在此表示
+衷心感谢。
+
+尽管本书的写作目的是为了给广大学生及刚接触研究工作的科研工作者带来便利，然而受限于个人的思想深度及知识水平，不可避免地存在一些纰漏及不足，希望读者不吝批评指正！欢迎来信交流：czhongcn@163.com。
+
+钟 澄
+
+2019年12月10日
+\tableofcontents
+\mainmatter
+
+\input{contents/chart1}
+\input{contents/chart2}
+\input{contents/chart3}
+\input{contents/chart4}
+\input{contents/chart5}
+
+
+
+\end{document}
